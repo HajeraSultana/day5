@@ -1,16 +1,22 @@
 print ("FRIENDS Character Creator")
 print()
-who = input("Are you Very Awkward At Times? ")
-if who == "No":
+awkward = input("Are you Very Awkward At Times? ")
+if awkward == "no":
   print("Then you're not Ross")
-Who = input("Neat And Tidy & Also Overbearing? ")
-if Who == "No":
+else:
+  print("Hey Ross!")
+Overbearing = input("Neat And Tidy & Also Overbearing? ")
+if Overbearing == "no":
   print("No, you're not Monica")
-wHo = input("Are you Funny And Always Happy? ")
-if wHo == "No":
+else:
+  print("It's great to see you Monica!")
+Funny = input("Are you Funny And Always Happy? ")
+if Funny == "no":
   print("Aww, You're not Joey")
-whO = input ("Are you Extremely Witty & Annoyingly Sarcastic? ")
-if whO == "No":
+else:
+  print("What's up Joey!")
+Sarcastic = input ("Are you Extremely Witty & Annoyingly Sarcastic? ")
+if Sarcastic == "no":
   print("You are not Chandler Bing")
 else:
-  print("Hello Chandler Bing")
+  print("Goodmorning Chandler Bing")
